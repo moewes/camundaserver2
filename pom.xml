@@ -7,7 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <properties>
     <quarkus.version>1.1.0.Final</quarkus.version>
-    <surefire-plugin.version>2.22.1</surefire-plugin.version>
+    <surefire-plugin.version>2.22.0</surefire-plugin.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -59,11 +59,6 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-openapi</artifactId>
-      <version>${quarkus.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-logging-gelf</artifactId>
       <version>${quarkus.version}</version>
     </dependency>
   </dependencies>
