@@ -17,6 +17,7 @@ public class MyApplication extends Application {
     classes.addAll(CamundaRestResources.getResourceClasses());
     classes.addAll(CamundaRestResources.getConfigurationClasses());
     classes.add(TestResource.class);
+    classes.add(TokenInspector.class);
 
     return classes;
   }
